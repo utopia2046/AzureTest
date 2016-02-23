@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzureTest", "AzureTest\AzureTest.ccproj", "{0E44417D-E65E-44B5-BB4B-FF6DB4736D8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AdCenter.UI.LogTransferWorker", "Microsoft.AdCenter.UI.LogTransferWroker\Microsoft.AdCenter.UI.LogTransferWorker.csproj", "{73916390-AEE8-4536-954A-33CDDA097A80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Advertising.UX.AzureStorageUtils", "Microsoft.Advertising.UX.AzureStorageUtils\Microsoft.Advertising.UX.AzureStorageUtils.csproj", "{4668BC32-7E7A-482D-8854-119C8DCACAA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeDataGenerator", "FakeDataGenerator\FakeDataGenerator.csproj", "{FA637B09-29F4-49C8-9B57-4D94D1AFAA02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E44417D-E65E-44B5-BB4B-FF6DB4736D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E44417D-E65E-44B5-BB4B-FF6DB4736D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E44417D-E65E-44B5-BB4B-FF6DB4736D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E44417D-E65E-44B5-BB4B-FF6DB4736D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73916390-AEE8-4536-954A-33CDDA097A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73916390-AEE8-4536-954A-33CDDA097A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73916390-AEE8-4536-954A-33CDDA097A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73916390-AEE8-4536-954A-33CDDA097A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4668BC32-7E7A-482D-8854-119C8DCACAA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4668BC32-7E7A-482D-8854-119C8DCACAA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4668BC32-7E7A-482D-8854-119C8DCACAA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4668BC32-7E7A-482D-8854-119C8DCACAA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA637B09-29F4-49C8-9B57-4D94D1AFAA02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA637B09-29F4-49C8-9B57-4D94D1AFAA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA637B09-29F4-49C8-9B57-4D94D1AFAA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA637B09-29F4-49C8-9B57-4D94D1AFAA02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
